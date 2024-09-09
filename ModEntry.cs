@@ -10,12 +10,12 @@ using System.Threading;
 namespace SafeLightningUpdated {
     internal class ModEntry : Mod {
 
-        static ModConfig Config;
-        static IMonitor StaticMonitor;
+        static ModConfig Config = new();
+        static IMonitor? SMonitor;
 
         public override void Entry(IModHelper helper) {
             Config = helper.ReadConfig<ModConfig>();
-            StaticMonitor = Monitor;
+            SMonitor = Monitor;
 
             helper.Events.GameLoop.GameLaunched += OnGameLaunched;
 
