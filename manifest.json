@@ -1,10 +1,11 @@
 {
-  "name": "Safe Lightning Updated",
-  "author": "Rokugin",
-  "version": "1.1.0",
-  "description": "Stops lightning from destroying things, optionally removes strikes and sounds.",
-  "uniqueID": "Rokugin.SafeLightningUpdated",
-  "entryDLL": "SafeLightningUpdated.dll",
-  "minimumapiversion": "4.0.0",
-  "updatekeys": [ "Nexus:22783" ]
+  "$schema": "https://smapi.io/schemas/manifest.json",
+  "Name": "Safe Lightning Updated",
+  "Author": "rokugin",
+  "Version": "1.1.0",
+  "Description": "Stops lightning from destroying things, optionally removes strikes and sounds.",
+  "UniqueID": "Rokugin.SafeLightningUpdated",
+  "EntryDll": "SafeLightningUpdated.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:22783" ]
 }
